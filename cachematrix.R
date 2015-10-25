@@ -24,7 +24,7 @@ MakeVector <- function(x = matrix()) {
 
 ## This function calculates the inverse of the  "MakeVector"
 ## and also retrieve the inverse 
-## from the cache in cases where the matrix has not changed and the inverse has been computed, 
+## from the cache in cases where the matrix has not changed and the inverse has been computed.
 
 cachemean <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
